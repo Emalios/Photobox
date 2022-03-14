@@ -1,6 +1,5 @@
 let url = 'https://webetu.iutnc.univ-lorraine.fr/www/canals5/photobox/photos';
 fetch(url, {
-        method : 'get',
         credentials : 'include'
     })
     .then(response => {
